@@ -1,0 +1,15 @@
+{{ range .Site.Params.CallToAction }}
+<div class="row section topspace">
+    <div class="panel panel-cta">
+        <div class="panel-body">
+            <div class="col-lg-8">
+                {{ with .description }}{{ . | markdownify }}{{ end }}
+            </div>
+            <div class="col-lg-4 text-right">
+                <a href="{{ .url }}" class="btn btn-primary btn-lg">{{ .cta }}</a>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
+

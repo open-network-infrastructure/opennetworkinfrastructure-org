@@ -1,0 +1,26 @@
+<div class="row section featured topspace">
+
+    <h2 class="section-title">
+        <span>Recent updates</span>
+    </h2>
+
+    <div class="">
+        {{ range (.Paginate (where .Data.Pages "Section" "post").ByDate.Reverse 3).Pages }}
+        <div class="col-sm-6 col-md-4">
+            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+            <p>{{ .Summary }}</p>
+            <p class="text-right text-uppercase"><a href="{{ .Permalink }}">Read more ></a></p>
+        </div>
+        {{ end }}
+
+    </div>
+</div>
+
+<div class="row">
+    {{ if .Paginator.HasNext }}
+        <p class="text-center">
+            <a class="btn btn-primary" href="/post">Read all updates</a>
+        </p>
+    {{ end }}
+</div>
+<!-- / section -->

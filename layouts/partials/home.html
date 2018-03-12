@@ -1,0 +1,31 @@
+<main id="main">
+
+	<div class="container">
+
+        {{ if .Site.Params.showSubheader }}
+            {{ partial "subheader.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.showServices }}
+            {{ partial "services.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.showPosts }}
+            {{ partial "posts.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.showRecentWorks }}
+            {{ partial "recentworks.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.showCallToAction }}
+            {{ partial "calltoaction.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.showPartners }}
+            {{ partial "partners.html" . }}
+        {{ end }}
+
+	</div>	<!-- /container -->
+
+</main>

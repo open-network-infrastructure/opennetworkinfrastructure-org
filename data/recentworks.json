@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "name": "The Things Network",
+        "image": "images/projects/ttn.png",
+        "url": "/projects/ttn",
+        "items": [
+            {
+                "name": "Read more",
+                "url": "/projects/ttn"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Make Zurich",
+        "image": "images/projects/makezurich.png",
+        "url": "/projects/make-zurich",
+        "items": [
+            {
+                "name": "Read more",
+                "url": "/projects/make-zurich"
+            }
+        ]
+    }
+]

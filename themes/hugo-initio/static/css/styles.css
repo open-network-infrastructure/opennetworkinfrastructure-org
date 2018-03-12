@@ -12,11 +12,7 @@ body {
   margin-top: 40px;
 }
 /*********************************************************************
-
-
                             Navigation in header
-
-
 **********************************************************************/
 .navbar {
   border-width: 1px 0;
@@ -110,11 +106,7 @@ body {
   color: #000000;
 }
 /****************************************************************************************
-
-
                                      Sidebar special Nav
-
-
 *****************************************************************************************/
 .nav-side {
   font-size: 24px;
@@ -134,12 +126,18 @@ body {
 .nav-side > li.active > a {
   color: #bd1550;
 }
+
+.nav-side {
+  text-align: right;
+}
+@media only screen and (max-width: 768px) {
+  .nav-side {
+    text-align: left;
+  }
+}
+ 
 /*********************************************************************
-
-
                                 TYPOGRAPHY
-
-
 **********************************************************************/
 p {
   line-height: 1.6em;
@@ -217,12 +215,15 @@ a:hover {
   max-width: 100%;
   height: auto;
 }
+.home figure figcaption {
+  color: #999;
+  font-size: 85%;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
 /*********************************************************************
-
-
                                 HEADER
-
-
 **********************************************************************/
 #head {
   background: #f4f4f4 url(../images/banner.png) top center;
@@ -264,12 +265,23 @@ a:hover {
   font-size: 1rem;
   margin: 15px 0 0;
 }
+#head.small-header img.img-logo {
+  display: block;
+  width: 132px;
+  margin: 0 auto;
+}
+.home #head.small-header {
+  padding: 10px 0 10px 0;
+}
+.home #head.small-header .tagline {
+  font-size: 0.7rem;
+}
+
+.partners img {
+  height: 70px;
+}
 /*********************************************************************
-
-
                                 CONTENT
-
-
 **********************************************************************/
 img {
   max-width: 100%;
@@ -494,11 +506,7 @@ img {
   background: none;
 }
 /*********************************************************************
-
-
                                  BLOG
-
-
 **********************************************************************/
 .section-title,
 .entry-title {
@@ -650,11 +658,7 @@ footer.entry-meta .meta-in {
   margin-bottom: 30px;
 }
 /*********************************************************************
-
-
                                 COMMENTS
-
-
 **********************************************************************/
 #comments {
   font-size: 13px;
@@ -746,11 +750,19 @@ footer.entry-meta .meta-in {
   margin: 55px 0 0 0;
 }
 /*********************************************************************
-
-
+                                JOIN FORM
+**********************************************************************/
+.mc-field-group li label {
+  font-weight: normal;
+}
+#mc_embed_signup .button.mc-button-subscribe {
+  background-color: #5f387d;
+}
+#mc_embed_signup .button.mc-button-subscribe:hover {
+  background-color:#8561a1;
+}
+/*********************************************************************
                                 FOOTER
-
-
 **********************************************************************/
 #footer {
   background: #232323;
@@ -801,11 +813,7 @@ footer.entry-meta .meta-in {
   }
 }
 /*********************************************************************
-
-
                                 SHARE THIS
-
-
 **********************************************************************/
 .st-custom-button[data-network] {
    background-color: #fff;

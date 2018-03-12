@@ -1,0 +1,117 @@
+baseURL = "https://opennetworkinfrastructure.org/"
+languageCode = "en-us"
+title = "Open Network Infrastructure Association"
+theme = "hugo-initio"
+
+[params]
+    name = "Open Network Infrastructure Asssociation"
+    tagline = "**Free**, **open** and **reliable** network infrastructure for **anyone**, **anytime**."
+    about = "We are a non-profit association based in Switzerland working towards a future of **free**, **open** and **reliable** network infrastructure for **anyone**, **anytime**.<p>IBAN: CH66 0900 0000 6115 1392 4<br>Account: 61-151392-4<br>BIC: POFICHBEXXX</p>"
+    email = "info@opennetworkinfrastructure.org"
+    address = "Open Network Infrastructure Asssociation"
+    addressZipCode = "8000"
+    addressLocality = "Zürich"
+    license = "[CC-BY-SA 4.0](https://github.com/open-network-infrastructure/opennetworkinfrastructure-org/blob/master/LICENSE)"
+    DateForm = "January 2, 2006"
+
+    showSubheader = true
+    showServices = true
+    showRecentWorks = true
+    showPartners = true
+    showCallToAction = true
+    showPosts = true
+
+    footerEnableContact = true
+    footerEnableFollowme = true
+    footerEnableTextWidget = true
+    footerEnableFormWidget = false
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "Our vision"
+    url = "/core/vision"
+    weight = 2
+[[menu.main]]
+    name = "Articles of Association"
+    url = "/core/articles-of-association"
+    weight = 3
+[[menu.main]]
+    name = "Recent updates"
+    url = "/post"
+    weight = 5
+
+
+[params.disqus]
+    site = ""
+
+[params.sharethis]
+    property = ""
+    custom = true
+
+[params.google.analytics]
+    trackerID = "UA-166167-6"
+
+[[params.calltoaction]]
+    description = "The association was founded on 29.8.2016 with the purpose of promoting open network infrastructure. All details about its constitution are in the **Articles of Association**."
+    url = "/core/articles-of-association"
+    cta = "Read Articles of Association"
+
+[[params.social]]
+	title = "facebook"
+	url = "https://www.facebook.com/nickname"
+    icon = "fa-facebook-square"
+    footer = false
+    sharethis = false
+    network = "facebook"
+[[params.social]]
+	title = "twitter"
+	url = "https://twitter.com/openntwrkinfra"
+    icon = "fa-twitter-square"
+    footer = true
+    sharethis = false
+    network = "twitter"
+[[params.social]]
+	title = "instagram"
+	url = "https://www.instagram.com/nickname"
+    icon = "fa-instagram"
+    footer = false
+    sharethis = false
+    network = ""
+[[params.social]]
+	title = "google+"
+	url = "https://plus.google.com/+nickname"
+    icon = "fa-google-plus-square"
+    footer = false
+    sharethis = false
+    network = "googleplus"
+[[params.social]]
+	title = "linkedin"
+	url = "https://www.linkedin.com/in/nickname"
+    icon = "fa-linkedin-square"
+    footer = false
+    sharethis = false
+    network = "linkedin"
+[[params.social]]
+	title = "tumblr"
+	url = "https://nickname.tumblr.com"
+    icon = "fa-tumblr-square"
+    footer = false
+    sharethis = false
+    network = "tumblr"
+[[params.social]]
+	title = "github"
+	url = "https://github.com/open-network-infrastructure"
+    icon = "fa-github"
+    footer = true
+    sharethis = false
+    network = ""
+[[params.social]]
+	title = "email"
+	url = "mailto:info@opennetworkinfrastructure.org"
+    icon = "fa-envelope"
+    footer = false
+    sharethis = false
+    network = "email"
