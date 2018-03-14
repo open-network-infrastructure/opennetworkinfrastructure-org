@@ -3,10 +3,10 @@ addons:
   apt:
     packages:
       - python-pygments
-      - hugo
 
 # Clean and don't fail
 install:
+  - sudo dpkg -i $(curl -w "%{filename_effective}" -LO $(curl -s https://api.github.com/repos/gohugoio/hugo/releases | grep browser_download_url | grep '64bit[.]deb' | head -n 1 | cut -d '"' -f 4))
   - rm -rf public || exit 0
 
 # Build the website
