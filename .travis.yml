@@ -16,7 +16,7 @@ script:
 # Deploy to GitHub pages
 deploy:
   provider: pages
-  repo: open-network-infrastructure.github.io
+  repo: open-network-infrastructure/open-network-infrastructure.github.io
   name: Roberto, the ONIA automaton
   target-branch: master
   skip_cleanup: true
