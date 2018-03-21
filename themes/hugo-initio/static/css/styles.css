@@ -399,7 +399,7 @@ img {
   -moz-background-clip: padding;
   border-radius: 0;
   background-clip: padding-box;
-  border: 0 none;
+  border: 0;
   margin-bottom: 10px;
   padding: 0;
   text-align: center;
