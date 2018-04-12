@@ -33,7 +33,7 @@ With regard to the provision of services, SWITCH could follow the principle of b
 
 ## Enough words! Where is the backend?
 
-The Swiss backend, operated by SWITCH has been accessible for a while on the TTN Console. If you are configuring a gateway, depending on whether you're configuring a gateway, or creating an application there are different parts you might be interested in
+The Swiss backend, operated by SWITCH has been accessible for a while on the TTN Console. Depending on whether you're configuring a gateway, or creating an application there are different parts you might be interested in.
 
 ### Gateway configuration
 
