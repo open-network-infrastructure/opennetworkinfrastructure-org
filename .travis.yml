@@ -6,7 +6,7 @@ addons:
 
 # Clean and don't fail
 install:
-  - sudo dpkg -i $(curl -w "%{filename_effective}" -LO $(curl -s https://api.github.com/repos/gohugoio/hugo/releases | grep browser_download_url | grep '64bit[.]deb' | head -n 1 | cut -d '"' -f 4))
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_0.54.0_Linux-64bit.deb -O /tmp/hugo.deb && sudo dpkg -i /tmp/hugo.deb
   - rm -rf public || exit 0
   - mkdir -p bin && curl "%{filename_effective}" -LO $(curl -s https://api.github.com/repos/tdewolff/minify/releases | grep browser_download_url | grep 'linux_amd64[.]tar[.]gz' | head -n 1 | cut -d '"' -f 4) | tar xz -C bin
 
