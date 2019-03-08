@@ -1,6 +1,5 @@
 +++
 date = "2019-03-08T07:00:00+00:00"
-draft = true
 title = "ASUT IoT Konferenz"
 
 +++
