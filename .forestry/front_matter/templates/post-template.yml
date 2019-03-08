@@ -1,7 +1,6 @@
 ---
 label: Post template
 hide_body: false
-display_field: title
 fields:
 - type: datetime
   name: date
