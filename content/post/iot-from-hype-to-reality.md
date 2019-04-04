@@ -7,6 +7,13 @@ On the 2nd of April 2019 the Swiss Association of Telecommunication ([asut](http
 
 Many CEOs, experts and practitioners from different industries were part of the conference and shared their insight and knowledge.
 
+<figure class="text-center">
+    <img src="/images/asut-iot-conference-fx.jpg" alt="ASUT IoT Konferenz"><br>
+    <figcaption>ASUT IoT Konference, April 2, 2019.</figcaption>
+</figure>
+
+<!--more-->
+
 The Open Network Infrastructure Association was part of this event, with a booth presenting [The Things Network](https://www.thethingsnetwork.org/), and professional IoT devices from companies like [Adnexo](https://www.adnexo.ch/), [Decentlab](https://www.decentlab.com/) and [Avelon](https://avelon.com/produkte/wisely/), the [LorixOne Gateway](https://www.lorixone.io/), as well as maker projects like [Storelytics](https://www.storelytics.ch/).
 
 It was a great pleasure talking to guests and visitors and sharing the enthusiastic spirit of LoRaWAN open network infrastructure.
@@ -15,4 +22,4 @@ In summary, the entire day was a big success for our community and we are lookin
 
 Let’s keep building this thing together!
 
-Gonzalo & Simon![](/images/IMG_20190402_113611.jpg)
+Gonzalo & Simon
