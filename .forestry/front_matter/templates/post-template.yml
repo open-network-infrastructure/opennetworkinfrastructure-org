@@ -9,5 +9,5 @@ fields:
   name: title
   label: title
 pages:
-- content/post/iot-from-hype-to-reality.md
 - content/post/presenting-at-asut-iot-konferenz.md
+- content/post/iot-from-hype-to-reality.md
