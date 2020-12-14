@@ -18,11 +18,13 @@ The **executive committee** is currently composed by the following members (in a
 * Simon Gehren
 * Jan Hänsli
 * Martin Seneclauze
+* Baxter Yazbek
 
 **Internal auditor**:
 
-* Jürg Mannes
+* [Vacant]
 
 ### Past board members
 
 * Matthias Zimmermann
+* Jürg Mannes
