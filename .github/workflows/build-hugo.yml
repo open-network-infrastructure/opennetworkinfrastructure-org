@@ -1,0 +1,35 @@
+name: Build website
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.76.3'
+        # extended: true
+
+    - name: Build
+      run: hugo --minify
+
+    - name: Deploy website
+      if: success()
+      uses: crazy-max/ghaction-github-pages@v2
+      with:
+        repo: open-network-infrastructure/open-network-infrastructure.github.io
+        target_branch: master
+        build_dir: public
+        keep_history: true
+      env:
+        GH_PAT: ${{ secrets.GH_PAT }}
