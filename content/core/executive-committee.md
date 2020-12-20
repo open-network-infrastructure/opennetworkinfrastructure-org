@@ -22,7 +22,7 @@ The **executive committee** is currently composed by the following members (in a
 
 **Internal auditor**:
 
-* [Vacant]
+* Marcus Cathomen
 
 ### Past board members
 
