@@ -12,7 +12,6 @@ The executive committee is the body that leads the association's day to day oper
 
 The **executive committee** is currently composed by the following members (in alphabetical order):
 
-* Peter Affolter
 * Reinhard Bischoff
 * Gonzalo Casas
 * Simon Gehren
@@ -28,3 +27,4 @@ The **executive committee** is currently composed by the following members (in a
 
 * Matthias Zimmermann
 * Jürg Mannes
+* Peter Affolter
